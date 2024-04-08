@@ -206,7 +206,7 @@ body.theme-theme-ui-contrast.layout-multiple-columns {
 /* Light theme */
 body.theme-default.layout-multiple-columns {
 
-  --active-header-radial-gradient: radial-gradient(ellipse,rgb(239, 154, 154 / 25%) 0,rgb(255, 0 ,81 / 0%) 60%);
+  --active-header-radial-gradient: radial-gradient(ellipse,rgb(154, 239, 239 / 25%) 0,rgb(0, 255, 174 / 0%) 60%);
 
   --bg-image : url('../images/theme/bg_light.png');
   --logo: url('../images/theme/wordmark_light.png');
@@ -215,18 +215,18 @@ body.theme-default.layout-multiple-columns {
   --color-column: rgba(255, 255, 255, 0.4);
   --color-columns: rgba(255, 255, 255, 0.5);
 
-  --color-brand-mastodon: #be2a4d;
-  --color-brand-mastodon-links: #df98a2;
-  --color-accent-dark-50: #be2a4d80;
+  --color-brand-mastodon: #27a4b8;
+  --color-brand-mastodon-links: #81c5cf;
+  --color-accent-dark-50: #27a4b880;
 
-  --color-accent:#df98a2;
-  --color-accent-dark: #be2a4d;
+  --color-accent: var(--color-brand-mastodon-links);
+  --color-accent-dark:  var(--color-brand-mastodon);
 
   --color-bg: #fff;
   --color-fg: #000;
 
-  --color-border: #e9dee0;
-  --color-dim: #c16c80;
+  --color-border: #dee8e9;
+  --color-dim: #6cb7c1;
   --color-light-text: #1f1b23;
 
   --color-green: #17bf63;
@@ -234,19 +234,19 @@ body.theme-default.layout-multiple-columns {
   --color-red-75: #e0245ebf;
   --color-focusable-toot: rgba(0, 0, 0, 0.035);
 
-  --color-light-shade: #00000005;;
-  --color-mud: #f0dee2;
+  --color-light-shade: #9ecddb12;;
+  --color-mud: #deebf0;
 
   --color-black-coral: #9188a6;
 
-  --color-profile-button-hover: #f1eff41a;
+  --color-profile-button-hover: #9ed4db40;
   --color-column-link-hover: #f7f7f91a;
   
   --color-modal-overlay: #6a5b8366;
   --color-dark: #f7f9f9;
   --color-thread-line: #e1e8ed;
   --color-gainsboro: #8899a6;
-  --color-light-purple: #df98a2;
+  --color-light-purple: #9baec8;
   --color-dark-electric-blue: #9088a6;
   --color-bg-75: #ffffffbf;
   --color-accent: var(--color-accent-dark);
